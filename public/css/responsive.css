@@ -1,0 +1,278 @@
+/* For 1024 and screen width (1002) OR Set for your layout width */
+@media (max-width: 1139px){
+	.gallery,.gallery1{
+	max-width:100%;
+	height:auto;
+	}
+	#logo{
+    margin-left: 45px;
+	}
+	nav{
+    margin-right: 45px;
+	}
+	.list-para {
+    margin-left: 0;
+	}
+
+}
+
+/*For Standard Size*/
+/* For Below 1024 Rssolution (768)*/
+@media (max-width: 1001px){
+	nav {
+    	margin-top: 50px;
+	}
+	#top-section:before{
+		display:none;
+	}
+	#webpaint-para{
+		float: left;
+    	width: 100%;
+	}
+	header{
+		margin-bottom: -1px;
+	}
+	.list-para {
+    	margin-left: auto;
+    	margin-right: auto;
+	}
+	/*footer{
+		margin-top: -1px;
+	}*/
+	#midlist-content ul {
+    	margin-bottom: 50px;
+	}
+	#featured-worked {
+    	margin-top: 50px;
+	}
+	#midlist-content {
+    	margin-top: 50px;
+	}
+}
+
+@media (max-width: 600px){
+	#webpaint-para {
+    	font-size: 45px;
+	}
+	#webpaint {
+    	font-size: 45px;
+	}
+	#webpaint-line {
+    	font-size: 25px;
+	}
+	#featured-worked {
+    	margin-top: 50px;
+	}
+	#midlist-content {
+    	margin-top: 50px;
+	}
+	#webpaint-para {
+    	font-size: 50px;
+	}
+	#webpaint-line {
+    	font-size: 30px;
+	}
+	#webpaint {
+    	font-size: 50px;
+	}
+	#featured-list {
+		text-align: center;
+		margin: 0 auto;
+		padding: 0;
+	}
+	.featured-button {
+		background-color: #ff6760;
+		color: #d9d9d9;
+		border-color: #ff6760;
+		border-radius: 5px 5px 5px 5px;
+		height: 35px;
+		font-weight: bolder;
+		width: 100%;
+		display: block;
+	}
+
+
+
+	/*Menu toogle Button*/
+	#menu{
+		display: none;
+	}
+	.toggle{
+		/*display: inline-block;
+		margin-left: 120px;*/
+		display:inline-block;
+		float: right;
+    	margin: 38px 25px 0 0;
+	}
+	.menu{
+		display: none;
+		width: 190px;
+		position: absolute;
+		z-index: 9999;
+		right: 22px;
+    	top: 73px;
+		/*right: 22px;
+    	top: 85px;
+		padding: 1px;*/
+	}
+	/*.menu:before{
+	content: url("icon-arrow-up.png");*/
+	/*content: "";
+    wisdth: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #ff6760;
+    position: absolute;
+    right: 10px;
+    top: -10px;
+	}*/
+	.menu li{
+		background-color: rgba(31, 31, 31,0.9);
+		text-align: left;
+		border-bottom: 1px solid black;
+		/*border-right: 3px solid #ff6760;
+		border-left: 3px solid #ff6760;*/
+
+	}
+	.menu li a {
+		text-decoration: none;
+		color: white;
+		font-size: 14px;
+		/*font-weight: 600;*/
+		font-family: Myriad Pro;
+		line-height: 37px;
+	}
+	#toggle-img{
+		width: 35px;
+	}
+	.icon-colour{
+		color: #ff6760;
+		margin: 9px;
+		float: left;
+	}	
+}
+
+@media (max-width: 320px){
+	header{
+		position:relative;
+	}
+	#webpaint-para {
+		font-size: 50px;
+	}
+	#webpaint-line {
+		font-size: 30px;
+	}
+	#webpaint {
+		font-size: 50px;
+	}
+	#get-in-touch {
+		font-size: 15px;
+	}
+	#footer-para{
+		font-size: 13px;
+	}
+	#social-icons {
+		margin-top: 15px;
+		padding: 0;
+	}
+	footer{
+		font-size: 12px;
+    	padding-top: 35px;
+    	padding-bottom: 35px;
+	}
+	.contact-text{
+		font-size: 12px;
+	}
+	#footer-address{
+		display: block;
+	}
+	#footer-phone-number{
+		display: block;
+	}
+	.twitter{
+     	color: #f5f5f5;
+     	background-color: #63bee0;
+     	font-size: 25px;
+ 	}
+	.twitter:hover{
+    	color: #63bee0;
+    	background-color: #f5f5f5;
+    	font-size: 25px;
+	}
+	.facebook{
+    	color: #f5f5f5;
+    	background-color: #5883c0;
+    	font-size: 25px;
+	}
+	.facebook:hover{
+    	color: #5883c0;
+    	background-color: #f5f5f5;
+    	font-size: 25px;
+	}
+	.gplus{
+    	color: #f5f5f5;
+    	background-color: red;
+    	font-size: 25px;
+	}
+	.gplus:hover{
+    	color: red;
+    	background-color: #f5f5f5;
+    	font-size: 25px;
+	}
+	.lifesaver{
+    	background-color: #e9a0c4;
+    	color: #f5f5f5;
+    	font-size: 25px;
+	}
+	.lifesaver:hover{
+    	background-color: #f5f5f5;
+    	color: #e9a0c4;
+    	font-size: 25px;
+	}
+	#logo {
+		margin-left: 25px;
+	}
+	#table-align td {
+		width: 50%;
+		float: left;
+	}
+	/*Menu toogle Button*/
+	/*#menu{
+		display: none;
+	}
+	.toggle{
+		display: inline-block;
+		margin-left: 120px;
+	}
+	.menu{
+		display: none;
+		width: 100px;
+		position: absolute;
+		z-index: 9999;
+	}
+	.menu li{
+		background-color: red;
+		text-align: center;
+	}
+	.menu li a {
+		text-decoration: none;
+		color: cornsilk;
+		font-size: 14px;
+		font-weight: 600;
+		font-family: Arial Rounded MT;
+	}
+	#toggle-img{
+		width: 35px;
+	}
+	*/
+
+
+}
+/* OTHER MEDIA QUERIES*/
+@media (min-width: 601px){
+	.menu{
+		display: none !important;
+	}
+}
+
